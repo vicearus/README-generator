@@ -1,9 +1,10 @@
-// TODO: Include packages needed for this application
+// Required packages for this application
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
+const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     {
         type: "input",
